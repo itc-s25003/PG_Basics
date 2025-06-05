@@ -5,4 +5,3 @@ me = {"好きなゲーム": "太鼓の達人",
 userInput = input("キーを入力してください: ")
 
 print(me[userInput])
-
