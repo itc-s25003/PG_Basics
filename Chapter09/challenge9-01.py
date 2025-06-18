@@ -1,4 +1,4 @@
 import os
 
-with open("README.md", "r", encoding="utf-8") as f:
+with open("README.md", "r") as f:
     print(f.read())

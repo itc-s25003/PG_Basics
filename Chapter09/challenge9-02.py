@@ -11,6 +11,8 @@ for i, question in enumerate(questions):
     f.write(userInput)
     if not question == questions[-1]:
         f.write(", ")
+    else:
+        f.write("\n")
 
 
 f.close()
